@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "rock";
+  src: url("../fonts/Rockit.ttf");
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1491848128688-e0c30289e89f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+}
+body #tableContainer,
+#tableContainer1 {
+  margin: auto;
+  margin-top: 3%;
+  background-color: rgba(0, 0, 0, 0.329);
+  border-radius: 20px;
+  color: white;
+  width: 80%;
+  height: 100%;
+  font-size: 2em;
+  text-align: left;
+  text-shadow: 5px 5px 6px rgb(51, 50, 50);
+}
+#tableContainer1 {
+  margin-top: 10px;
+}
+#tableContainer tr {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+h1 {
+  font-family: "rock";
+  font-size: 4em;
+  letter-spacing: 100px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.712);
+  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+
+#tableContainer tr {
+  font-weight: bolder;
+  width: 75%;
+}
+#tableContainer tr th {
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+#tableContainer tr th input {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.041);
+
+  border-radius: 20px;
+  color: white;
+  font-size: 1.4em;
+  text-align: center;
+  border: none;
+  height: 4.6%;
+
+  width: 23%;
+  padding: 0;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.678);
+}
